@@ -7,8 +7,8 @@ def pwdGen(pwd: list = [32], length: int = 4, start: int = 32, stop: int = 127):
 
 	Args:
 		ls: ==> 	Desc: The password list used for recursive reasons 	|||  Type:List ||| Default:[]
-		length: ==> Desc: Maximum length or the characthers in password |||  Type: Int ||| Default: 4
-		start: ==>	Desc: Starting int, Extended ASCII is 32 			|||  Type: Int ||| Default: 32
+		length: ==> 	Desc: Maximum length or the characthers in password 	|||  Type: Int ||| Default: 4
+		start: ==>	Desc: Starting int, Extended ASCII is 32 		|||  Type: Int ||| Default: 32
 		end: ==>	Desc: Endding int, Extended ASCII it is 127 		|||  Type: Int ||| Default: 126
 
 	Return:
