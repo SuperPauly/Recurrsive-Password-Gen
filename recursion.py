@@ -1,7 +1,7 @@
-from typing import Union
+from typing import Generator, Union
 
 
-def pwdGen(pwd: list = [32], length: int = 4, start: int = 32, stop: int = 127) -> Union[Generator, Str, List]:
+def pwdGen(pwd: list = [32], length: int = 4, start: int = 32, stop: int = 127) -> Union[Generator, str, List]:
 	"""
 	Generates a list of all passwords within a passed maximum length, decimals can be converted to ASCII using chr()
 
